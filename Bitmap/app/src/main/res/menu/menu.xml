@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/rectangle"
+        android:title="Rectangle"
+        app:showAsAction="never"/>
+    <item android:id="@+id/circle"
+        android:title="Circle"
+        app:showAsAction="never"/>
+    <item android:id="@+id/triangle"
+        android:title="Triangle"
+        app:showAsAction="never"/>
+    <item android:id="@+id/line"
+        android:title="Line"
+        app:showAsAction="never"/>
+    <item android:id="@+id/square"
+        android:title="Square"
+        app:showAsAction="never"/>
+
+</menu>
