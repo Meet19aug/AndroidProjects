@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TableLayout
+        android:layout_width="359dp"
+        android:layout_height="529dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_200"
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="User Details"
+                android:background="@color/purple_200"
+                android:textAlignment="center"
+                android:textAllCaps="true" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView1a"
+                android:layout_width="180dp"
+                android:background="#BCC841"
+                android:layout_height="wrap_content"
+
+                android:text="Name : " />
+
+            <TextView
+                android:id="@+id/textView1b"
+                android:layout_width="181dp"
+                android:background="#49ADDA"
+                android:layout_height="wrap_content"
+
+                android:text="name" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2a"
+                android:layout_width="180dp"
+                android:background="#BCC841"
+                android:layout_height="wrap_content"
+
+                android:text="Contact Number : " />
+
+            <TextView
+                android:id="@+id/textView2b"
+                android:layout_width="181dp"
+                android:background="#49ADDA"
+                android:layout_height="wrap_content"
+
+                android:text=" contactNumber" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3a"
+                android:layout_width="180dp"
+                android:background="#BCC841"
+                android:layout_height="wrap_content"
+
+                android:text="Email : " />
+
+            <TextView
+                android:id="@+id/textView3b"
+                android:layout_width="181dp"
+                android:background="#49ADDA"
+                android:layout_height="wrap_content"
+
+                android:text="email " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4a"
+                android:layout_width="180dp"
+                android:background="#BCC841"
+                android:layout_height="wrap_content"
+
+                android:text="Gender : " />
+
+            <TextView
+                android:id="@+id/textView4b"
+                android:layout_width="181dp"
+                android:background="#49ADDA"
+                android:layout_height="wrap_content"
+
+                android:text="male / female" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5a"
+                android:layout_width="180dp"
+                android:background="#BCC841"
+                android:layout_height="wrap_content"
+
+                android:text="District : " />
+
+            <TextView
+                android:id="@+id/textView5b"
+                android:layout_width="181dp"
+                android:background="#49ADDA"
+                android:layout_height="wrap_content"
+
+                android:text="District" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6a"
+                android:layout_width="180dp"
+                android:background="#BCC841"
+                android:layout_height="wrap_content"
+
+                android:text="Country : " />
+
+            <TextView
+                android:id="@+id/textView6b"
+                android:layout_width="181dp"
+                android:background="#49ADDA"
+                android:layout_height="wrap_content"
+
+                android:text="country" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7a"
+                android:layout_width="180dp"
+                android:background="#BCC841"
+                android:layout_height="wrap_content"
+
+                android:text="UserName : " />
+
+            <TextView
+                android:id="@+id/textView7b"
+                android:layout_width="181dp"
+                android:background="#49ADDA"
+                android:layout_height="wrap_content"
+
+                android:text="username " />
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

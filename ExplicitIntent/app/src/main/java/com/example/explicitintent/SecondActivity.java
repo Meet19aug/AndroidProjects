@@ -17,7 +17,5 @@ public class SecondActivity extends AppCompatActivity {
         int indexOfImage = Integer.parseInt(getIntent().getStringExtra("imageIndex"));
 
         imageView.setImageResource(images[indexOfImage]);
-
-
     }
 }
