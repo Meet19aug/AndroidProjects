@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 miliseconds = (Integer.parseInt(minuteText.getText().toString())*60*1000 )+ (Integer.parseInt(secondText.getText().toString())*1000);
-                Toast.makeText(MainActivity.this, "Timer Started : "+(miliseconds/1000), Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Timer Started : "+(miliseconds/1000) + " seconds", Toast.LENGTH_SHORT).show();
                 new java.util.Timer().schedule(
                         new java.util.TimerTask() {
                             @Override
